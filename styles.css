@@ -1,0 +1,112 @@
+body {
+font-family: times, ariel, serif;
+}
+
+header {
+background-color: green;
+color: white;
+padding: 10px;
+margin: 0px;
+overflow: hidden;
+}
+
+header img {
+float: left;
+width: 100px;
+height: 100px;
+margin-right: 10px;
+}
+
+
+header h1 {
+padding: 0;
+margin: 0;
+font-size: 2.2em;
+}
+
+header h2 {
+padding: 0;
+margin: 0;
+font-size: 1.2em;
+}
+
+
+.Navigation {
+border: 2px solid green;
+box-shadow: 2px 2px 10px -4px;
+}
+
+
+.Navigation:hover{
+border-radius: 5px;
+border: 1.5px solid green;
+}
+
+
+.Navigation ul {
+list-style-type: none;
+background-color: lightgreen;
+margin: 0;
+overflow: hidden;
+border: 1px solid green;
+
+}
+
+
+.Navigation li {
+float: left;
+}
+
+.Navigation li a {
+text-decoration: none;
+padding: 10px 12px;
+display: block;
+color: black;
+}
+
+.Navigation li a:hover {
+background-color: #004EFF;
+color: white;
+border-radius: 16px;
+border: 1.5px solid lightgreen;
+}
+
+
+.Navigation li a.active {
+background-color: #004EFF;
+color: white;
+}
+
+.content {
+padding: 0 10px;
+border: 2px solid green;
+}
+
+.content h2 {
+margin: 5px 0 0 0;
+font-size: 1.6em;
+color: #FF00DE;
+}
+
+.content img {
+float: right;
+margin: 10px;
+box-shadow: 2px 3px 5px 1px;
+}
+
+.footer {
+
+padding: 0 10px;
+color: solidgreen;
+background-color: silver;
+margin: 0;
+text-align:center;
+border: 2px solid #95027B;
+}
+
+
+
+
+
+
+
