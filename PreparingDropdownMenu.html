@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>PreparingDropdownMenu</title>
+<style type="text/css" display="all">
+	.dd {
+	display: inline-block;
+	position: relative;
+	}
+	
+	.ddBtn {
+	padding: 10px;
+	min-width: 120px;
+	border: none;
+	background-color: #4ca;
+	color: white;
+	font-size: 1em;
+	
+	}
+	
+	.ddBtn:hover {
+	background-color: green;
+	cursor: pointer;
+	}
+	
+	.ddList {
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 8px 0px #e0e0e1;
+	display: none;
+	}
+	
+	.ddList a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+	}
+	
+	.ddList a:hover{
+	background-color: #e0e0e1;
+	}
+	
+	.dd:hover .ddList{
+	display: block;
+	}
+	
+</style>
+</head>
+	
+<body>
+
+	<h1> PreparingDropdownMenu</h1>
+<div class="dd">
+<button class="ddBtn">Menu</button>
+	<div class="ddList">
+	<a href="#">List item 1</a>
+	<a href="#">List item 2</a>
+	<a href="#">List item 3</a>
+	<a href="#">List item 4</a>
+	<a href="#">List item 5</a>
+	</div>
+	</div>
+</body>
+
+</html>
