@@ -139,7 +139,7 @@ margin: 4px;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: green;
+    border-color: #ffff00;
     background-color: green;
 }
 .header .navbar {
@@ -159,13 +159,13 @@ background: transparent !important;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
-    background: #fff;
+    background: #ffff00;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #FFB8B8;
+	color: #ffff00;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-color: #FFFFFF;
+color: #000099;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 color: #FFFFFF;
@@ -193,7 +193,7 @@ background: none;
         font-size: 45px;
         padding: 10px 15px;
         background: rgba(128, 180, 33, 0.80);
-        color: #FFFFFF;
+        color: #ffff00;
         text-shadow: none;
         font-weight: bold;
         display: inline-block;
@@ -201,7 +201,7 @@ background: none;
 
     .carousel-caption h3 {
         font-size: 30px;
-        color: #1C4604;
+        color: #ffff00;
         font-weight: bold;
         text-shadow: #fff 1px 1px 1px;
     }
@@ -233,24 +233,24 @@ background: none;
 }
 
 .navbar-brand b {
-    color: #fff;
-	font-family: 'Pacifico', cursive;
-	font-weight:400;
+    color: #ffff00;
+	font-family: 'Times New Roman', cursive;
+	font-weight:500;
 }
 
 .logo {
-    font-size: 2.2em;
+    font-size: 2.5em;
     text-shadow: none;
     margin: 8px 0 0 0;
 }
 
     .logo:hover {
-        color: #5A5A5A;
+        color: #ffff00;
     }
 
 .header .navbar {
     margin: 0;
-    background: #fff;
+    background: #ffff00;
     border: 0;
 }
 
@@ -338,7 +338,7 @@ background: none;
 }
 
     .banner-content h2 {
-        color: #fff;
+        color: #002366;
         font-size: 3.5em;
         margin: 2% 0 30px;
         line-height: 1.2em;
@@ -348,7 +348,7 @@ background: none;
         font-size: 1.6em;
         font-weight: normal;
         font-style: normal;
-        color: #fff;
+        color: #002366;
     }
 
 .da-slider {
